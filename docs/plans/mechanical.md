@@ -10,6 +10,10 @@ I've decided to follow FreeCAD Tutorials and commit my learnings. Target usecase
 - Any theory not immediately accessible via FreeCAD, or requiring full attention for study.
 - Using manufacturing methods.
 
+**Cap Stone**
+- electronics part assembly
+- Oragnic Shapped Controller
+
 ---
 
 ## Loose Notes
