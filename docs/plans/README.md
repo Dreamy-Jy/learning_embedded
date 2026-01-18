@@ -48,3 +48,19 @@ My end goal is to be able to model electronics with organic shapes.
 Proficiency as a CAD drafter is secondary and while the long term goal is to become proficient in mechanical engineering that is none goal rn.
 
 [Develop a dynamic project list.]()
+
+# Project Ideas
+
+Appliances
+- Family(women) oriented power tools
+Weapons Systems
+- Data collection systems for Robotics
+Surveillance Systems
+Vechicles
+Robots
+Machete for coconuts
+
+Company maps
+Regulations
+Limit lobbyist control
+Execute enemies of the american well being
