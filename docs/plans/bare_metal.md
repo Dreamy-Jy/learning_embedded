@@ -4,6 +4,8 @@ A stretch goal would be FPGA/ASIC design.
 
 One part of this will be getting up to speed on bare metal programming, and figuring out how to find best practices with each new chip.
 
+## Focuses
+
 These are the chips I'll be focusing on:
 - RP2040 on RP Pico 1
 - RP2350 on RP Pico 2
@@ -14,6 +16,17 @@ RISC Architecture Focuses
 - ARM Cortex-M (M0+, M33, M4)
 - ARM Cortex-A (A76)
 - RISC-V Hazard3
+
+Boot Loader
+Concurrency
+- Schedulers, Runtimes, Async
+Configure Chip
+How Chip boots
+
+## Resources
+
+[Raspberry Pi Pico Lectures 2025](https://www.youtube.com/playlist?list=PLDqMkB5cbBA4GisLzRSqw5x5G38M4zlkr)
+---
 
 What System Characteristics:
 - memory usage
@@ -122,3 +135,9 @@ When would I need to do something like this?
 How do I do this robustly?
 
 How does async contribute to power management?
+
+How to make sure my program responds with a time limit? (eg. will respond within 100ms)
+
+Architecture 
+Memory
+Async Rust
