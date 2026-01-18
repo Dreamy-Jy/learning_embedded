@@ -3,5 +3,5 @@
 [core]
     attributesfile = ~/.gitattributes
 [filter "zippey"]
-    smudge = /Users/jordanethomas/Documents/OpenSource/zippey/zippey.py d
-    clean = /Users/jordanethomas/Documents/OpenSource/zippey/zippey.py e
+    smudge = python3 /Users/jordanethomas/Documents/OpenSource/zippey/zippey.py d
+    clean = python3 /Users/jordanethomas/Documents/OpenSource/zippey/zippey.py e
