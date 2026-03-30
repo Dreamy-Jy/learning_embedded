@@ -59,8 +59,3 @@ Surveillance Systems
 Vechicles
 Robots
 Machete for coconuts
-
-Company maps
-Regulations
-Limit lobbyist control
-Execute enemies of the american well being
