@@ -42,3 +42,6 @@ Robots make a robot in all form factors.
 - cartesian robot
 - quad/dog
 - drone
+
+
+Study Rust Interop (Python, C, C++)

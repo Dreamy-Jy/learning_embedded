@@ -1,6 +1,9 @@
+_Status:_ Living
+_Started:_ 06-02-2026 (DD-MM-YYYY)
+
 # Plan 1
 
-I've decided to follow FreeCAD Tutorials and commit my learnings. Target usecase: mold making
+I've decided to follow FreeCAD Tutorials and commit my learnings.
 
 **Scope:**
 - Interfaces: GUI, OpenSCAD, Python
@@ -26,3 +29,11 @@ The easy solutions are the follow a comprehensive tutorial series for both FreeC
 Do I really need blender? I'm looking for a workflow for organic shapes.
 
 Soft robotics and hydraulics would be awesome.
+
+
+Class realizations
+1. I may not learn to build complex assemblies fast enough. (repliace complex parts in my real life, sub to the guy's pateron )
+2. I lack the fundamential understanding of FreeCAD's available work benches. (read the manuals)
+
+Make an Audio interface and noise cancellation.
+l

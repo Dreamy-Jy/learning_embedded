@@ -138,6 +138,8 @@ How does async contribute to power management?
 
 How to make sure my program responds with a time limit? (eg. will respond within 100ms)
 
-Architecture 
+Architecture
 Memory
 Async Rust
+
+How do i build a debugging probe? like the pico 1?

@@ -1,6 +1,12 @@
 _Status:_ Living
 _Started:_ 06-02-2026 (DD-MM-YYYY)
+---
+Learning electronic is 2 fold:
+1. Learn the KiCad workflow
+2. Learing Electronics design
+3. Learning PCB design best practices
 
+---
 Project List:
 - Dev Board for rp2040, rp2350, nRF5x
 - Electronic Speed Controller
