@@ -1,25 +1,25 @@
 # Programming in Bare Metal Environments
 
 > *note on the name:*
-> Reguradless of processor class, bare metal programming changes little in principle
+> Regardless of processor class, bare metal programming changes little in principle
 
 ***Anything written is subject to change with my growing understanding.***
 
 Bare Metal programming is about creating abstractions over hardware, and building applications with those abstractions.
 
-In this case hardware is defined as "the processor, it's ISA, and all other hardware features provides by the device". Building hardware is out of scope for this document, comprehending hardware documentation is not.
+In this case hardware is defined as "the processor, it's ISA, computer architecture, and all other hardware features provides by the device". Building hardware is out of scope for this document, comprehending hardware documentation is not.
 
 ## Curriculum
 
 Most of active learning will be in building & understanding core abstractions and 
 core abstractions along with debugging and testing method.
 
-Side effects of this jurney are learning to build applications and comprehend hardware documentation.
+Side effects of this journey are learning to build applications and comprehend hardware documentation.
 <!--
-Dispite them not being core focues you should still track:
+Despite them not being core focuses you should still track:
 
 Application Building Patterns
-Technical Document Literacy (ISA, Chip, Periphals, Errata???)
+Technical Document Literacy (ISA, Chip, Peripherals, Errata???)
 -->
 
 ### Abstractions
@@ -31,11 +31,11 @@ To the best of my understanding these are the core abstractions These are core a
 
 ___*Memory:___
 - **Memory Allocators** - dynamic RAM usage
-- **File Systems** - data persistace.
+- **File Systems** - data persistence.
 
 ___*Drivers:___
 - **Microcontroller drivers** - interfaces to functions on the excuting processor.
-- **Peripherial drivers** - interfaces with other hardware connected to the excuting processor.
+- **Peripheral drivers** - interfaces with other hardware connected to the executing processor.
 
 ___*Concurrency:___
 - **Framework** - concurrency added to your program.
@@ -58,10 +58,11 @@ The hardware
 - the ISA
 - the chip
 - the board
+- computer architecture
 
 Common Concepts
 
-The fundation is the ISA, Chip, & Board.
+The foundation is the ISA, Chip, & Board.
 Hardware foundation (ISA > Processor(s) > Board(s))
 
 You produce software abstractions
@@ -73,10 +74,13 @@ On Top of these you produce
 Fundamental programs/functionality
 Bootloader
 
-bootloaders, drivers, allocators, operating systems
+bootloader, drivers, allocators, operating systems
 
 
 -->
+
+## Prior Art
+<!-- A section for projects in this area done by others. Prioritize industry standards -->
 
 ## Beyond the Pale
 
@@ -111,11 +115,11 @@ The real innovation here is that
   - Haptics
   - Sound
   - Light
-- Erogonomic Layout
+- Ergonomic Layout
   - ultralow profile click encoder (horizontal and vertical)
   - latching buttons
-  - monentary buttons
-  - flexpoints
+  - momentary buttons
+  - trackpoint
 
 
 ##### Desk Keyboard
@@ -178,7 +182,7 @@ Fundamentals
   - Microcontroller drivers
     - Interrupts
     - DMA
-  - Peripherial drivers
+  - Peripheral drivers
 - Concurrency
   - Framework
   - Operating Systems
@@ -292,11 +296,11 @@ Design Questions
 
 
 
-otloaders
+bootloaders
 
 
 
-wer Management
+power Management
 
 Products
 <https://github.com/rust-embedded/wg#the-libs-team>

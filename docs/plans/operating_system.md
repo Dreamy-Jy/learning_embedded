@@ -8,7 +8,7 @@ This is about programming in and above operating systems. With special focus on 
 
 This is the conceptual path that guides the decisions I make in this journey
 
-The description here are sparse. Covering only artifics produced and interfaces and tools used to produce them. All of theses are conceptually very dense, and as I become more familiar with them I'll map them out.
+The description here are sparse. Covering only artifacts produced and interfaces and tools used to produce them. All of theses are conceptually very dense, and as I become more familiar with them I'll map them out.
 
 ### Configuring Linux
 
@@ -23,11 +23,11 @@ I know of Yocto and LFS but am not sure
 how to package this.
 -->
 
-### Modifing Linux
+### Modifying Linux
 
 > Writing programs run in kernel space
 
-You'll be writting **kernel module** & **kernel modifications** using the kernel's [Core APIs](https://docs.kernel.org/core-api/index.html), [Driver APIs](https://docs.kernel.org/driver-api/index.html#), [Subsystems](https://docs.kernel.org/subsystem-apis.html), [Locking Primitives](https://docs.kernel.org/locking/index.html) and [Development Tools](https://docs.kernel.org/dev-tools/index.html).
+You'll be writing **kernel module** & **kernel modifications** using the kernel's [Core APIs](https://docs.kernel.org/core-api/index.html), [Driver APIs](https://docs.kernel.org/driver-api/index.html#), [Subsystems](https://docs.kernel.org/subsystem-apis.html), [Locking Primitives](https://docs.kernel.org/locking/index.html) and [Development Tools](https://docs.kernel.org/dev-tools/index.html).
 
 Additionally You'll be writing **eBPF programs** using the [eBPF tool suite](https://docs.kernel.org/bpf/index.html).
 
@@ -50,6 +50,9 @@ Man Pages ([syscall(2)](https://man7.org/linux/man-pages/man2/syscall.2.html))
 The Linux Kernel Documentation ([The Linux Virtual File System](https://docs.kernel.org/filesystems/vfs.html))
 
 *The UNIX TimeSharing System* : bell labs paper (Dennis M. Ritchie and Ken Thompson)
+
+## Prior Art
+<!-- A section for projects in this area done by others. Prioritize industry standards -->
 
 ## Beyond the Pale
 
@@ -95,7 +98,7 @@ Build drones in all UAV form factors.
 Try all major autonomy hardware.
 
 - Full system
-  - transciever(controller)
+  - transceiver(controller)
   - monitor(headset, handheld)
   - drone
   - camera(s)
@@ -106,7 +109,7 @@ Try all major autonomy hardware.
 ### General Robotics
 
 Create robots of all form factors. Arm, cartesian, dog, UAV
-Use all major mathamatical tools found in robotics.
+Use all major mathematical tools found in robotics.
 Use all major software components of robotics
 
 <!--
@@ -116,12 +119,12 @@ Modifying Operating Systems
   - Artifacts
     - Kernel Module
     - Kernel Modification
-    - eBPF Progarm
+    - eBPF Program
     - Supporting Artifacts
   - Interfaces
     - Core API [Documentation/core-api/]
       - Core Utilities & Data Structures
-      - Concurrency Primitivies
+      - Concurrency Primitives
       - Memory Management
       - Hardware Interfaces
       - Debugging Interfaces
@@ -137,7 +140,7 @@ Modifying Operating Systems
     - Kernel Tracing
     - Driver (a type of module)
     - Configuring and Building the Kernel
-    - Usespace Surface
+    - Userspace Surface
     - Hardware Surface
     - Upstreaming Process
     - more
@@ -170,7 +173,7 @@ Books
 This a path to coming every level of a system programmer.
 
 
-Embedded Linux vs Actual Linux (Andriod, Full Distro)
+Embedded Linux vs Actual Linux (Android, Full Distro)
 - Does your devices need to run software made by others?
 - Which path is easier(meets spec by deadline)?
 How to choose an ISA(x86, ARM, RISC-V)?
